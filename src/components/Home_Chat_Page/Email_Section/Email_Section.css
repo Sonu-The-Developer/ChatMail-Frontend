@@ -1,0 +1,32 @@
+#email_section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#all_emails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.single_email {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.email_avatar {
+  border-radius: 50%;
+  max-height: 15px;
+  max-width: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.emailName {
+  overflow: hidden;
+  cursor: pointer;
+  width: -webkit-fill-available;
+}

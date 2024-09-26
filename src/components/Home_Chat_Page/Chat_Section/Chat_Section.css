@@ -1,0 +1,64 @@
+.selected_email {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.selected_email_avatar {
+  border-radius: 50%;
+  max-height: 15px;
+  max-width: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.selected_emailName {
+  overflow: hidden;
+  cursor: pointer;
+  /* width: -webkit-fill-available; */
+  max-width: 300px;
+  min-width: auto;
+}
+
+#chating_history {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: scroll;
+}
+
+#chating_history::-webkit-scrollbar {
+  width: 6px;
+}
+
+#chating_history::-webkit-scrollbar-track {
+  background: #fcf5eb;
+  border-radius: 10px;
+}
+
+#chating_history::-webkit-scrollbar-thumb {
+  background: #fcf5eb;
+  border-radius: 10px;
+}
+
+#chating_history:hover::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0);
+}
+
+#chating_history:hover::-webkit-scrollbar-thumb {
+  background: #25d366;
+}
+
+.single_chatMsg {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#msg_input {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid;
+  width: -webkit-fill-available;
+}

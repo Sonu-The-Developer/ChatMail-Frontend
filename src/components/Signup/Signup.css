@@ -1,0 +1,34 @@
+#chatmailName {
+  color: #25d366;
+}
+
+#signCard {
+  display: flex;
+  height: 88%;
+  margin: auto;
+}
+
+#sign {
+  border-radius: 15px;
+  display: flex;
+  gap: 40px;
+  padding: 30px 100px;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#signForm {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.text_area {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}

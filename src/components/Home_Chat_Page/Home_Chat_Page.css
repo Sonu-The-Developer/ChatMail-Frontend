@@ -1,0 +1,14 @@
+#allChat_sections {
+  padding: 2vw 5vw;
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+}
+
+.home_chat_page_sections {
+  border-radius: 10px;
+  border: 1px solid black;
+  height: 80vh;
+  min-width: 0;
+  padding: 10px;
+}

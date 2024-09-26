@@ -1,0 +1,18 @@
+#navbar {
+  padding: 2vw 5vw;
+}
+
+#logo,
+#logoText {
+  font-size: 14px;
+  /* color: #25d366; */
+}
+
+.headerRouteText {
+  color: black;
+  transition: color 0.2s ease;
+}
+
+.headerRouteText:hover {
+  color: #25d366;
+}
